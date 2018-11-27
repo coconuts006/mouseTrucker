@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 81768685}
   - component: {fileID: 81768684}
   - component: {fileID: 81768683}
+  - component: {fileID: 81768686}
   m_Layer: 5
   m_Name: left
   m_TagString: Untagged
@@ -332,7 +333,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 81768684}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 81768686}
+        m_MethodName: OnClickDexteritySelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &81768684
@@ -369,6 +381,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81768681}
   m_CullTransparentMesh: 0
+--- !u!114 &81768686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81768681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716d654aacab74d0484c6da54650d1c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &86213616
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612deb1abc88c4edca248903de246441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ServerAddress: http://localhost:8080/set_rate.php
+  ServerAddress: http://coconuts006.sub.jp/mousetrucker/set_rate.php
 --- !u!1 &289565936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1610,7 @@ GameObject:
   - component: {fileID: 495465495}
   - component: {fileID: 495465494}
   - component: {fileID: 495465493}
+  - component: {fileID: 495465496}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -1651,7 +1675,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 495465494}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 495465496}
+        m_MethodName: OnClickDexteritySelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &495465494
@@ -1688,6 +1723,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 495465491}
   m_CullTransparentMesh: 0
+--- !u!114 &495465496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495465491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716d654aacab74d0484c6da54650d1c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &496851291
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ConnectServer : MonoBehaviour
 {
 
-    public string ServerAddress = "http://localhost:8080/set_rate.php";
+    public string ServerAddress = "http://coconuts006.sub.jp/mousetrucker/set_rate.php";
     int rate; //重さを表す 0~10段階評価
     int dexterity;
     int group; //A, Bどっちか0, 1

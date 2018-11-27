@@ -27,20 +27,19 @@ public class DexteritySelectControl : MonoBehaviour {
         }
     }
 
-    public void OnClickSexSelect()
+    public void OnClickDexteritySelect()
     {
-        for (int i = 0; i <= 10; i++)
+        if (transform.name == "left")
         {
-            if (transform.name == "left")
-            {
-                root_decterity = 0;
-                isSetDexterity = true;
-            }
-            else if (transform.name == "right")
-            {
-                root_decterity = 1;
-                isSetDexterity = true;
-            }
+            Debug.Log("left");
+            root_decterity = 0;
+            isSetDexterity = true;
+        }
+        else if (transform.name == "right")
+        {
+            Debug.Log("right");
+            root_decterity = 1;
+            isSetDexterity = true;
         }
     }
 }
